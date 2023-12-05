@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Guantes de Gloria</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>Guantes de  <span class="txtRojo">Gloria</span></h1>
+            <nav id="nav">
+                <a href="#nosotros" onclick="seleccionar()">Inicios</a>
+                <a href="#servicios" onclick="seleccionar()">Reglas</a>
+                <a href="#equipo" onclick="seleccionar()">Campeones</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <!-- <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXING
+                </div>
+                <div class="opcion">
+                    04.ENDURANCE
+                </div>
+                <div class="opcion">
+                    05.YOGA
+                </div>
+                <div class="opcion">
+                    06.CARDIO
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="historiaBox.jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">Historia del boxeo</span>
+                        <h2>Inicios</h2>
+                    </div>
+                </div>
+                <hr>
+                <p>El boxeo es un deporte que se remonta a miles de años atrás. Sus orígenes datan del antiguo Egipto, donde los primeros combates eran entre hombres y mujeres. Con el tiempo, el boxeo evolucionó y tomó la forma que conocemos hoy en día. En el siglo XVIII, el boxeo fue formalmente reconocido como un deporte profesional y comenzaron a surgir las primeras reglas para regularlo. Desde entonces, ha sido considerado como un deporte internacional con muchos aficionados alrededor del mundo.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">Trabaja duro </span> y en silencio
+                </span>
+                <h2>Tu <span class="txtRojo">éxito</span> hará todo el ruido</h2>
+            </div>
+            <div class="col2">
+                <button>Conocer más</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">----------------------------------------------------------</span>
+                            <h2>Reglas básicas</h2>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>El  boxeo es un deporte muy famoso en muchas partes del mundo, si estas pensando entrar un poco más en el mundo del boxeo ya sea practicando o viendo los combates, es importante que conozcas la reglas del mismo y como es que estas reglas varían según el tipo de evento que se realice. </p>
+                    <p>Como consecuencia de haber roto alguna de las reglas que se describirán a continuación el jurado deberá revisar la seriedad de la falta y proceder con la reducción de puntos a las tarjetas del peleador infractor.</p>
+                </div>
+                <div class="col">
+                    <img src="cusdamato.png" alt="" width="100px">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-user-xmark"></i>
+                        <h3>Regla número <span class="txtRojo">1 </span></h3>
+                        <p>Golpear la nuca o por detrás de la cabeza.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-hand-point-down"></i>
+                        <h3>Regla número <span class="txtRojo">2 </span></h3>
+                        <p>Patear al oponente.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <h3>Regla número <span class="txtRojo">3 </span></h3>
+                        <p>Darle la espalda al contrincante.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <h3>Regla número <span class="txtRojo">4 </span></h3>
+                        <p>Golpear por debajo del cinturón.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-skull-crossbones"></i>
+                        <h3>Regla número <span class="txtRojo">5 </span></h3>
+                        <p>Dar cabezados intencionales-</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-skull-crossbones"></i>
+                        <h3>Regla número <span class="txtRojo">6 </span></h3>
+                        <p>Hacer uso de otros objetos que no sean los guantes reglamentarios.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <!-- <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li><span>PILETA</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit inventore eligendi</li>
+                    <li><span>WIFI GRATIS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit inventore</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit?</li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    03
+                </div>
+                <div class="info">
+                    <span class="frase">Conozcamos a los:</span>
+                    <h2>Campeones actuales</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="furychamp.png" alt="">
+                    <div class="info">
+                        <h2>Tyson Fury</h2>
+                        <p>Campeón peso completo</p>
+                        <p>35-0-1</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="tbud.png" alt="">
+                    <div class="info">
+                        <h2>Terrence Crawford</h2>
+                        <p>Campeón en 3 divisiones</p>
+                        <p>40-0-0</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="usyk.png" alt="">
+                    <div class="info">
+                        <h2>Oleksandr Usyk</h2>
+                        <p>Campeón semicompleto</p>
+                        <p>21-0-0</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="tyson.jpeg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img2.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="img3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img3.avif" alt="">
+                </div>
+                <div class="col">
+                    <img src="img5.jpeg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- SECCION CONTACTO -->
+    <!-- <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Avenida Morro 255
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    2664 - 456788
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">GUANTES DE GLORIA</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
